@@ -1,0 +1,126 @@
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-image: url(https://desktopmania.ru/pics/00/84/58/DesktopMania.ru-84580-300x199.jpg)
+}
+
+
+.container {
+    max-width: 1100px;
+    border: 1px solid #000; 
+    margin: 30px auto;
+    height: fit-content;
+    position: relative;
+    padding: 10px 20px;
+}
+.section {
+    backdrop-filter: blur(10px);
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    border-radius: 10px;
+    box-shadow: 6px 1px 15px #000;
+}
+.button{
+    height:60px;
+    width: 100px;
+    border-color: #fff;
+    border-radius: 8%;
+    background-color: rgba(28,28,28,0);
+    border-style:solid;
+    border-width: 2px;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    color: #fff;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: #000;
+    border-color: #000;
+}
+.section__img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    
+}
+.section__block {
+    width: 370px;
+    height: 490px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    position: absolute;
+    left: 570px;
+    text-align: center;
+    padding: 40px; 
+    color: #fff;
+    box-shadow: 6px 1px 15px rgb(222, 163, 0);
+}
+.section__block:hover{
+    transform: scale(1.05);
+    box-shadow: -6px -1px 15px rgb(222, 163, 0);
+}
+
+.card__img{
+    flex-direction: column;
+    padding-top: 12px;
+}
+.section__title {
+    width: 400px;
+    position: relative;
+    display: flex;
+    right: 200px;
+    height: fit-content;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.section__title-text{
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+}
+.section__title-text-2{
+    margin-top: 80px;
+    font-size: 25px;
+}
+.section__title-text-3{
+    margin-top: 150px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-shadow: 0 0 4px #000;
+}
+
+.content{
+    backdrop-filter: blur(10px);
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 6px 1px 15px #000;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.content__block{
+    width: 300px;
+    border: 1px solid #000;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media(max-width:767px){
+    .container{
+        flex-direction: column;
+    }
+}
